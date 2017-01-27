@@ -5,7 +5,7 @@ export default function(props) {
     return (
         <html>
             <head>
-                <title>Document Conversion Demo</title>
+                <title>Holland & Knight LLP Lending Platform </title>
                 <meta charset="utf-8"/>
                 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,16 +14,16 @@ export default function(props) {
                 <link rel="stylesheet" href="/css/style.css"/>
             </head>
             <body>
-                <Header mainBreadcrumbs="Document Conversion" mainBreadcrumbsUrl="http://www.ibm.com/watson/developercloud/document-conversion.html" />
+                <Header mainBreadcrumbs="powered Holland & Knight Lending Platform" mainBreadcrumbsUrl="http://www.ibm.com/watson/developercloud/document-conversion.html" />
                 <Jumbotron
-                    serviceName="Document Conversion"
+                    serviceName="Lending Platform provided by Holland & Knight and powered by Watson"
                     repository="https://github.com/watson-developer-cloud/document-conversion-nodejs"
                     documentation="http://www.ibm.com/watson/developercloud/doc/document-conversion"
                     apiReference="http://www.ibm.com/watson/developercloud/document-conversion/api/"
                     version="GA"
                     startInBluemix="https://console.ng.bluemix.net/registration/?target=/catalog/services/document-conversion/"
                     serviceIcon="/images/document-conversion.svg"
-                    description="The Document Conversion service transforms HTML, PDF, and Microsoft™ Word documents into normalized HTML, plain text, or sets of Answer units. The Answer units can be run through a utility to convert it to the Solr JSON file type needed to train the Retrieve and Rank service."
+                    description="The Lending Platform replaces inefficient manual processes with powerful automation tools powered by Watson.  Below, you can begin the a new finance transactopm by uploading a credit approval documents, which may be in HTML, PDF, and Microsoft™ Word documents."
                 />
                 <div id="root">
                 {props.children}
