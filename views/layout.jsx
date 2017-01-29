@@ -14,9 +14,9 @@ export default function(props) {
                 <link rel="stylesheet" href="/css/style.css"/>
             </head>
             <body>
-                <Header mainBreadcrumbs="powered Holland & Knight Lending Platform" mainBreadcrumbsUrl="http://www.ibm.com/watson/developercloud/document-conversion.html" />
+                <Header mainBreadcrumbs="powered by a Lending Platform created and maintained through a collaboritive effort between Holland & Knight LLP and First Green Bank" mainBreadcrumbsUrl="http://www.ibm.com/watson/developercloud/document-conversion.html" />
                 <Jumbotron
-                    serviceName="Lending Platform provided by Holland & Knight and powered by Watson"
+                    serviceName="Lending Platform provided through a collaboritive effort between Holland & Knight LLP and First Green Bank and powered by Watson"
                     repository="https://github.com/watson-developer-cloud/document-conversion-nodejs"
                     documentation="http://www.ibm.com/watson/developercloud/doc/document-conversion"
                     apiReference="http://www.ibm.com/watson/developercloud/document-conversion/api/"
